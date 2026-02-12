@@ -220,8 +220,8 @@ const content = {
       ),
       imgFeatures: imgFeatures,
       alt: <>Imagem representativa da Seção Serviços</>,
-      titleMessageFeature: <>100%</>,
-      subtitleMessageFeature: <>foco em proteger o que é seu</>,
+      titleMessageFeature: <>Recupere</>,
+      subtitleMessageFeature: <>a sua paz e tranquilidade com seu veículo!</>,
       cards: {
         card1: {
           title: <>Defesa em Ação de Busca e Apreensão</>,
