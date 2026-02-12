@@ -14,7 +14,6 @@ export default function GlobalClickEvent() {
       console.log('Evento disparado via classe!')
 
       // adicionar evento
-      gtag_report_conversion()
     }
 
     document.addEventListener('click', handleClick)

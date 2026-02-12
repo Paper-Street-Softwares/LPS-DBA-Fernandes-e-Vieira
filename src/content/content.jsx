@@ -89,7 +89,7 @@ export const infos = {
   tiktokProfile: '',
 
   whatsappDefaultMessage:
-    'Olá! Vim do Google e preciso de ajuda com Divórcio. Pode me atender?',
+    'Olá! Vim do Google e preciso de ajuda com meu veículo. Pode me atender?',
   whatsChatDefaultMessage:
     'Gostaria de falar conosco agora mesmo? Clque abaixo 👇',
   slogan: '',
