@@ -131,7 +131,7 @@ const content = {
       SecondPart: <span></span>,
       subtitle: (
         <p>
-          Te ajudamos a suspender o processo, ganhar tempo e defender seu bem
+          Te ajudo a suspender o processo, ganhar tempo e defender seu bem
           legalmente, mesmo que ele já tenha sido levado.
         </p>
       ),
@@ -202,7 +202,7 @@ const content = {
         },
       },
       fraseObs: (
-        <>Entre em contato conosco e lhe daremos todo o suporte necessário</>
+        <>Entre em contato Comigo e lhe darei todo o suporte necessário</>
       ),
       ctaButtonText: <>Seja atendido agora pelo WhatsApp</>,
     },
@@ -227,7 +227,7 @@ const content = {
           title: <>Defesa em Ação de Busca e Apreensão</>,
           subtitle: (
             <>
-              Agimos rapidamente para suspender o processo e impedir que o
+              Trabalho rapidamente para suspender o processo e impedir que o
               veículo seja levado.
             </>
           ),
@@ -267,7 +267,7 @@ const content = {
           title: <>Negociação e Renegociação da Dívida</>,
           subtitle: (
             <>
-              Buscamos acordos possíveis para manter o veículo e organizar o
+              Busco acordos possíveis para manter o veículo e organizar o
               pagamento da dívida.
             </>
           ),
@@ -313,7 +313,7 @@ const content = {
         alt: 'Imagem ilustrativa da Seção Sobre',
       },
       miniTag: <>QUEM É O FERNANDES & VIEIRA</>,
-      FirstPart: <span>Nossa atuação</span>,
+      FirstPart: <span>Minha atuação</span>,
       Destaque: <span className="italic font-light"> na sua defesa</span>,
       SecondPart: <span></span>,
       subtitle: (
@@ -324,9 +324,9 @@ const content = {
       ),
       paragraph: (
         <div>
-          Somos as advogadas Ana Carolina Vieira e Jéssica Fernandes e
-          acreditamos que cada direito representa mais do que um benefício:
-          representa segurança, dignidade e tranquilidade para o futuro.
+          Sou Jéssica Fernandes e acredito que cada direito representa mais do
+          que um benefício: representa segurança, dignidade e tranquilidade para
+          o futuro.
           <br />
           <br />
           Aqui, cada cliente é ouvido com atenção, orientado com clareza e
@@ -335,9 +335,9 @@ const content = {
           porque entendemos que confiança se constrói com presença e verdade.
           <br />
           <br />
-          Mais do que processos, cuidamos de pessoas. Nosso compromisso é
-          transformar informação em proteção e direito em segurança real para
-          quem confia em nosso trabalho.
+          Mais do que processos, cuido de pessoas. Meu compromisso é transformar
+          informação em proteção e direito em segurança real para quem confia em
+          meu trabalho.
         </div>
       ),
       ctaButtonText: <>Avaliar meu caso agora</>,
@@ -385,10 +385,10 @@ const content = {
           <p className="mb-6 font-secondFont">Ainda dá tempo de agir.</p>
         </div>
       ),
-      ctaButtonText: 'Falar agora com uma advogada e entenda suas opções',
+      ctaButtonText: 'Falar agora com a Advogada',
     },
     steps: {
-      miniTag: <>COMO ATUAMOS NA DEFESA DO SEU VEÍCULO</>,
+      miniTag: <>COMO ATUO NA DEFESA DO SEU VEÍCULO</>,
       FirstPart: <span>Defesa</span>,
       Destaque: <span className="italic font-light"> estratégica </span>,
       SecondPart: (
@@ -403,8 +403,8 @@ const content = {
           cardTitle: <>Análise do financiamento e da ação do banco</>,
           cardDescription: (
             <>
-              Analisamos o contrato de financiamento do veículo, a notificação
-              de atraso e a ação de busca e apreensão para identificar juros
+              Analiso o contrato de financiamento do veículo, a notificação de
+              atraso e a ação de busca e apreensão para identificar juros
               abusivos, cobranças irregulares e falhas que podem anular ou
               suspender o processo.
             </>
@@ -415,7 +415,7 @@ const content = {
           cardTitle: <>Medidas urgentes para evitar ou reverter a apreensão</>,
           cardDescription: (
             <>
-              Com base na análise, adotamos as medidas jurídicas cabíveis para
+              Com base na análise, adoto as medidas jurídicas cabíveis para
               tentar impedir a apreensão do veículo ou buscar a devolução do
               carro quando ele já foi recolhido pelo banco.
             </>
@@ -426,7 +426,7 @@ const content = {
           cardTitle: <>Estratégia para reduzir a dívida ou viabilizar acordo</>,
           cardDescription: (
             <>
-              Buscamos alternativas legais para revisão do valor financiado,
+              Busco alternativas legais para revisão do valor financiado,
               redução do saldo devedor ou negociação direta com a instituição
               financeira, sempre focando em manter o veículo e aliviar o impacto
               financeiro.
@@ -445,7 +445,7 @@ const content = {
           ),
         },
       },
-      ctaButtonText: <>Falar diretamente conosco</>,
+      ctaButtonText: <>Falar diretamente comigo</>,
     },
     faq: {
       miniTag: <>TIRE SUAS DÚVIDAS</>,
