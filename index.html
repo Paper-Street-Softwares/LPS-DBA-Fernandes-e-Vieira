@@ -175,6 +175,37 @@ atua com análise contratual, estratégia jurídica e condução responsável em
       name="twitter:url"
       content="https://divorcio.fernandesevieiraadvocacia.com.br/"
     />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-17668069100"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-17668069100");
+    </script>
+    <!-- Event snippet for Clique Botõ CTA - DBA Fernandes conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion() {
+        // var callback = function () {
+        //   if (typeof url != "undefined") {
+        //     window.location = url;
+        //   }
+        // };
+        gtag("event", "conversion", {
+          send_to: "AW-17668069100/8cx-CIHvw_gbEOyt5ehB",
+          // event_callback: callback,
+        });
+        return false;
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -1,16 +1,16 @@
-import logo from '../assets/imgs/logo/logo.webp'
-import logoDesktop from '../assets/imgs/logo/logoDesktop.webp'
-import heroDefaultImg from '../assets/imgs/hero/lawHero.webp'
-import heroDefaultMobileImg from '../assets/imgs/hero/lawHeroMobile.webp'
+import logo from "../assets/imgs/logo/logo.webp";
+import logoDesktop from "../assets/imgs/logo/logoDesktop.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultMobileImg from "../assets/imgs/hero/lawHeroMobile.webp";
 
-import imgFeatures from '../assets/imgs/features/imgServices.webp'
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
-import aboutImg from '../assets/imgs/about/aboutImg.webp'
+import aboutImg from "../assets/imgs/about/aboutImg.webp";
 // import team1 from '../assets/imgs/team/team1.webp'
 // import team2 from '../assets/imgs/team/team2.webp'
 // import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
 
-import imgSteps from '../assets/imgs/steps/imgSteps.webp'
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 // import logo1 from '../assets/imgs/parceria/Logo1.webp'
 // import logo2 from '../assets/imgs/parceria/Logo2.webp'
 // import logo3 from '../assets/imgs/parceria/Logo3.webp'
@@ -32,31 +32,31 @@ import {
   HandCoins,
   Check,
   Shield,
-} from 'lucide-react'
+} from "lucide-react";
 
-import { FileText } from 'lucide-react'
+import { FileText } from "lucide-react";
 
-const currentYear = new Date().getFullYear()
+const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: 'Fernandes & Vieira Advocacia e Consultoria',
-  email: 'contato', // Email desejado pelo cliente
-  emailSecundario: 'A_Definir', // Email desejado pelo cliente
-  domain: 'divorcio.fernandesevieiraadvocacia.com.br', // Sem "www"
+  name: "Fernandes & Vieira Advocacia e Consultoria",
+  email: "contato", // Email desejado pelo cliente
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "divorcio.fernandesevieiraadvocacia.com.br", // Sem "www"
   phone: {
-    ddd: '31',
-    firstPart: '99638', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '5637', // Apenas os 4 últimos números
+    ddd: "31",
+    firstPart: "99638", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5637", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: '00',
-    firstPart: '00000', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '0000', // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: '00',
-    firstPart: '00000', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '0000', // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -82,18 +82,18 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A_Definir </span>,
-  instagramProfile: '', // Sem o @
-  facebookProfile: '',
-  linkeDinProfile: '',
-  x: '',
-  tiktokProfile: '',
+  instagramProfile: "", // Sem o @
+  facebookProfile: "",
+  linkeDinProfile: "",
+  x: "",
+  tiktokProfile: "",
 
   whatsappDefaultMessage:
-    'Olá! Vim do Google e preciso de ajuda com meu veículo. Pode me atender?',
+    "Preciso de ajuda com Defesa de Busca e Apreensão. Pode me ajudar?",
   whatsChatDefaultMessage:
-    'Gostaria de falar conosco agora mesmo? Clque abaixo 👇',
-  slogan: '',
-}
+    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
+  slogan: "",
+};
 
 const content = {
   texts: {
@@ -108,20 +108,20 @@ const content = {
         alt: `Logomarca ${infos.name}`,
       },
       menuItems: [
-        'Início',
-        'Serviços',
-        'Sobre',
+        "Início",
+        "Serviços",
+        "Sobre",
         // 'Perguntas',
         // 'Blog',
         // 'Mapa',
       ],
-      menuId: ['home', 'feature', 'about'],
-      ariaLabel: 'Botão de Contato',
-      ctaButtonText: 'Contato',
-      ctaButtonTextResponsive: 'Contato',
+      menuId: ["home", "feature", "about"],
+      ariaLabel: "Botão de Contato",
+      ctaButtonText: "Contato",
+      ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: 'NÃO PERCA SEU CARRO',
+      miniTag: "NÃO PERCA SEU CARRO",
       FirstPart: <span>Seu veículo foi alvo de</span>,
       Destaque: (
         <span className="destaque relative italic font-light">
@@ -137,9 +137,9 @@ const content = {
       ),
       heroDefaultImage: heroDefaultImg,
       heroDefaulMobiletImg: heroDefaultMobileImg,
-      alt: 'Imagem ilustrativa da Seção Início',
+      alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
-        'Botão para chamada de ação para contato pelo whatsapp',
+        "Botão para chamada de ação para contato pelo whatsapp",
       ctaButtonText: <>Preciso de ajuda urgente</>,
       ctaButtonTextSecondary: <>A_Definir</>,
       obsHero: {
@@ -148,7 +148,7 @@ const content = {
         text: <>Cada minuto importa, não deixe para amanhã!</>,
         textTwo: <></>,
       },
-      secondaryCta: 'Contato',
+      secondaryCta: "Contato",
     },
 
     important: {
@@ -240,8 +240,8 @@ const content = {
             </div>
           ),
           icon: <Lock />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
         },
         card2: {
           title: <>Recuperação do Veículo Apreendido</>,
@@ -260,8 +260,8 @@ const content = {
             </div>
           ),
           icon: <Car />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
         },
         card3: {
           title: <>Negociação e Renegociação da Dívida</>,
@@ -280,8 +280,8 @@ const content = {
             </div>
           ),
           icon: <HandCoins />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
         },
         card4: {
           title: <>Revisão de Contrato e Juros Abusivos</>,
@@ -300,8 +300,8 @@ const content = {
             </div>
           ),
           icon: <FileText />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
         },
       },
       ctaButtonText: <>Recuperar minha paz ao dirigir</>,
@@ -310,7 +310,7 @@ const content = {
     about: {
       imagem: {
         img: aboutImg,
-        alt: 'Imagem ilustrativa da Seção Sobre',
+        alt: "Imagem ilustrativa da Seção Sobre",
       },
       miniTag: <>QUEM É O FERNANDES & VIEIRA</>,
       FirstPart: <span>Minha atuação</span>,
@@ -341,7 +341,7 @@ const content = {
         </div>
       ),
       ctaButtonText: <>Avaliar meu caso agora</>,
-      buttonModalLabelAbout: 'Continuar lendo',
+      buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p className="font-secondFont">
           A_Definir
@@ -356,36 +356,36 @@ const content = {
           A_Definir
         </p>
       ),
-      paragraphModalCta: 'Entre em contato',
-      ctaButtonAriaLabel: 'Botão para entrar em contato',
+      paragraphModalCta: "Entre em contato",
+      ctaButtonAriaLabel: "Botão para entrar em contato",
 
       aboutSocial: {
         img: {
           // img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
-          altDefault: 'Imagem ilustrativa da Seção de Redes Sociais',
+          altDefault: "Imagem ilustrativa da Seção de Redes Sociais",
         },
         miniTag: <>A_Definir</>,
         title: <>A_Definir</>,
         subtitle: <>A_Definir</>,
         paragraph: <p></p>,
-        labelInstagram: 'Siga-nos no Instagram',
-        labelFacebook: 'Siga-nos no Facebook',
-        labelLinkedin: 'Siga-nos no LinkedIn',
-        labelX: 'Siga-nos no X',
-        labelTiktok: 'Siga-nos no Tik Tok',
-        labelYoutube: 'Siga-nos no Youtube',
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
+        labelTiktok: "Siga-nos no Tik Tok",
+        labelYoutube: "Siga-nos no Youtube",
       },
     },
     ctaSection: {
-      miniTag: 'FALE CONOSCO',
+      miniTag: "FALE CONOSCO",
       title: <h1>Prestes a perder o veículo?</h1>,
       subtitle: (
         <div>
           <p className="mb-6 font-secondFont">Ainda dá tempo de agir.</p>
         </div>
       ),
-      ctaButtonText: 'Falar agora com a Advogada',
+      ctaButtonText: "Falar agora com a Advogada",
     },
     steps: {
       miniTag: <>COMO ATUO NA DEFESA DO SEU VEÍCULO</>,
@@ -396,7 +396,7 @@ const content = {
       ),
       subtitle: <></>,
       img: imgSteps,
-      alt: 'Imagem ilustrativa da Seção Passo a Passo',
+      alt: "Imagem ilustrativa da Seção Passo a Passo",
       cards: {
         card1: {
           stepNumber: 1,
@@ -469,15 +469,15 @@ const content = {
           answer: <>A_Definir</>,
         },
       },
-      paragraph: 'Clique aqui caso tenha mais dúvidas',
+      paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     blog: {
       miniTag: <>A_Definir</>,
       title: <>A_Definir</>,
-      subtitle: '',
+      subtitle: "",
       img: imgSteps,
-      labelCards: 'Ver mais',
-      label: 'Clique aqui para ver todas as matérias',
+      labelCards: "Ver mais",
+      label: "Clique aqui para ver todas as matérias",
       blogLink: <>A_Definir</>, //sem "https://"
     },
     parceria: {
@@ -486,25 +486,25 @@ const content = {
       subtitle: <>A_Definir</>,
       images: [
         {
-          role: 'A_Definir',
+          role: "A_Definir",
           // img: logo1,
-          alt: 'Logomarca parceira',
-          description: 'A_Definir',
-          name: 'A_Definir',
+          alt: "Logomarca parceira",
+          description: "A_Definir",
+          name: "A_Definir",
         },
         {
-          role: 'A_Definir',
+          role: "A_Definir",
           // img: logo2,
-          alt: 'Logomarca parceira',
-          description: 'A_Definir',
-          name: 'A_Definir',
+          alt: "Logomarca parceira",
+          description: "A_Definir",
+          name: "A_Definir",
         },
         {
-          role: 'A_Definir',
+          role: "A_Definir",
           // img: logo3,
-          alt: 'Logomarca parceira',
-          description: 'A_Definir',
-          name: 'A_Definir',
+          alt: "Logomarca parceira",
+          description: "A_Definir",
+          name: "A_Definir",
         },
       ],
     },
@@ -776,13 +776,13 @@ const content = {
     // },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
-      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
-      midSectionName: 'Até mais',
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      midSectionName: "Até mais",
       footerText:
-        'Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.',
-      footerSocialText: 'Siga a gente nas redes sociais:',
-      footerNavegacaoText: 'NAVEGAÇÃO',
-      desenvolvidoPor: 'Desenvolvido com excelência por Paper Street',
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      footerSocialText: "Siga a gente nas redes sociais:",
+      footerNavegacaoText: "NAVEGAÇÃO",
+      desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
       privacidade: (
         <div class="phone3:max-w-3xl mx-auto tablet1:px-6 text-gray-900 leading-relaxed font-secondFont">
           <h1 class="text-3xl font-bold mb-6">Política de Privacidade</h1>
@@ -808,7 +808,7 @@ const content = {
 
           <ul class="list-disc ml-6 mb-6 space-y-2">
             <li>
-              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{' '}
+              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{" "}
               órgão responsável pela fiscalização e aplicação da LGPD.
             </li>
 
@@ -1015,9 +1015,9 @@ const content = {
         </div>
       ),
       pontos: {
-        ponto1: 'Profissionalismo',
-        ponto2: 'Experiência',
-        ponto3: 'Resultados',
+        ponto1: "Profissionalismo",
+        ponto2: "Experiência",
+        ponto3: "Resultados",
       },
     },
     // socios: {
@@ -1089,8 +1089,8 @@ const content = {
       year: currentYear,
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerNavegacaoText: 'NAVEGAÇÃO',
-      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
+      footerNavegacaoText: "NAVEGAÇÃO",
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
     svgs: {
       wpp: (
@@ -1106,11 +1106,11 @@ const content = {
       ),
     },
   },
-}
+};
 
 export const abstractions = {
   titleModal: <strong>{content.texts.about.title}</strong>,
   subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
-}
+};
 
-export default content
+export default content;
